@@ -1,0 +1,16 @@
+label {
+    background-color: grey;
+    border: solid brown 1px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 6px 7px;
+    cursor: pointer;
+    width: 98px;
+    height: 15px;
+
+}
