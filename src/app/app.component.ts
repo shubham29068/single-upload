@@ -14,8 +14,8 @@ export class AppComponent {
     if (fileType.match(/image\/*/)) {
       let reader = new FileReader();
       reader.readAsDataURL(event.target.files[0])
-      reader.onload = (e: any) => {
-        this.url = e.target.result;
+      reader.onload = (event: any) => {
+        this.url = event.target.result;
       }
     }
     else {
